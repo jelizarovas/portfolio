@@ -58,9 +58,9 @@ main {
 }
 
 #welcome-section {
-  min-height: 100vh;
-  /* min-height: calc(100vh - var(--nav-height)); */
   /* min-height: 100vh; */
+  min-height: calc(100vh - var(--nav-height));
+
   display: flex;
   align-items: center;
   flex-direction: column;
