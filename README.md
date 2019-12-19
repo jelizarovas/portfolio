@@ -36,7 +36,7 @@ need to add portfolio websites:
 
 2011-05 http://mantobartuskeviciaussodyba.lt/ as http://mantobartuskeviciaus.99k.org/ .. no trace hosted on zymic, and updated with wordpress
 
-2008-12 http://asjaunas.lt
+2008-12 http://asjaunas.lt - a local town youth news website
 
 
 
