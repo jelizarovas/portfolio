@@ -4,6 +4,8 @@ My Portfolio website made for freecodecamp.org
 
 need to add portfolio websites:
 
+2020-01 hairbymargo.com
+
 2019-04 flyingcouchmoving.com
 
 2018-02 choicemotorcar.net
@@ -36,7 +38,7 @@ need to add portfolio websites:
 
 2011-05 http://mantobartuskeviciaussodyba.lt/ as http://mantobartuskeviciaus.99k.org/ .. no trace hosted on zymic, and updated with wordpress
 
-2008-12 http://asjaunas.lt
+2008-12 http://asjaunas.lt - a local town youth news website
 
 
 
