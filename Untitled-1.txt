@@ -1,5 +1,0 @@
-Invalid command 'SSLEngine'
-
-https://unix.stackexchange.com/questions/31378/apache2-invalid-command-sslengine
-
-sudo a2enmod ssl
