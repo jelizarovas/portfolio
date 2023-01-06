@@ -42,12 +42,21 @@ const ListItem = (props) => {
       <button
         type="button"
         onClick={props?.select(props?.url)}
-        className="flex flex-col  p-2 w-full "
+        className="flex  p-2 w-full "
       >
-        <span name={props?.url}> {props?.name}</span>
-        <span name={props?.url} className="text-gray-500 text-xs">
-          {props?.url}
+        <span className="bg-[#008e76] rounded p-2 w-12 mr-2 h-full flex justify-center items-center">
+          <img
+            src="/public/projects/leafautos.com/logo.png"
+            alt="dealership logo"
+            className=" w-full"
+          />
         </span>
+        <div className="flex flex-col">
+          <span name={props?.url}> {props?.name}</span>
+          <span name={props?.url} className="text-gray-500 text-xs">
+            {props?.url}
+          </span>
+        </div>
       </button>
       <div className="flex items-center">
         {props?.link && (
@@ -72,7 +81,7 @@ const ListItem = (props) => {
           >
             <RxGithubLogo />
             <span className=" px-1 py-0.5 rounded text-[10px]">
-              {props?.github ? "Public" : "Private"}
+              {props?.github ? "Source" : "Private"}
             </span>
           </a>
         )}
