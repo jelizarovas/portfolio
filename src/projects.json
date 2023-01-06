@@ -1,0 +1,11 @@
+[
+    {
+        "name" : "Leaf Autos",
+        "displayUrl" : "leafautos.com",
+        "linkUrl" : "https://leafautos.com",
+        "folder" : "leafautos.com",
+        "source" : "https://github.com/jelizarovas/leafautos.com", 
+        "logo" : "/projects/leafautos.com/logo.png",
+        "background" : "#008e76"
+    }
+]
