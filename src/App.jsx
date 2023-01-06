@@ -23,11 +23,11 @@ function App() {
             github="https://github.com/jelizarovas/leafautos.com"
             link="https://leafautos.com/"
           />
-          <ListItem
+          {/* <ListItem
             name="Leaf Autos Admin"
             url="admin.leafautos.com"
             select={select}
-          />
+          /> */}
         </ul>
       </div>
       <Footer />
@@ -91,9 +91,9 @@ const Header = () => {
             Arnas Jelizarovas
           </span>
         </h1>
-        <div className="flex md:flex-col space-y-2 text-sm text-white">
+        <div className="flex md:flex-col md:space-y-2 text-sm text-white">
           <a
-            className=" px-4 py-2 text-center flex md:space-x-2 items-center"
+            className=" px-4 py-2 text-center flex space-x-2 items-center"
             href="mailto:jelizarovas@gmail.com"
           >
             <MdEmail /> <span>jelizarovas@gmail.com</span>
