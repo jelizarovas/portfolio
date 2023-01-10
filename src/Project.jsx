@@ -50,7 +50,7 @@ export const Project = ({ close, project }) => {
             li: ({ node, ...props }) => (
               <li className="hover:bg-black hover:bg-opacity-5" {...props} />
             ),
-
+            br: ({ node, ...props }) => <br />,
             a: ({ node, ...props }) => (
               <a
                 target="_blank"

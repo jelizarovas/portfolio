@@ -1,7 +1,7 @@
 import { Project } from "./Project";
 import React from "react";
 import { RxGithubLogo } from "react-icons/rx";
-import { MdEmail } from "react-icons/md";
+import { MdEmail, MdRemoveRedEye } from "react-icons/md";
 import { BiWorld } from "react-icons/bi";
 import projects from "./projects.json";
 
@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App min-h-screen w-full h-full flex flex-col font-sans">
       <Header />
+      <Welcome />
       <div className="flex-grow  container mx-auto">
         <h2 className="px-2 md:px-4 py-1 mt-2 md:py-2 opacity-60 select-none text-sm ">
           Projects
@@ -44,36 +45,40 @@ const ListItem = (props) => {
             backgroundColor: props?.background || "black",
           }}
         >
-          <img src={props.logo} alt="dealership logo" className="" />
+          <img src={props.logo.slice(1)} alt="dealership logo" className="" />
         </span>
-        <div className="flex flex-col ">
+        <div className="flex flex-col flex-grow  justify-start items-start">
           <span className="">{props?.name}</span>
           <span className="text-gray-500 text-xs">{props?.displayUrl}</span>
         </div>
+        <div className=" flex flex-col  items-center justify-center space-y-1  h-full px-2">
+          <MdRemoveRedEye />
+          <span className="  px-1  rounded text-[10px]">Details</span>
+        </div>
       </button>
-      <div className="flex items-center">
+      <div className="flex  items-center ">
         {props?.linkUrl && (
           <a
-            className="flex flex-col text-md items-center justify-center space-y-1 disabled:text-gray-400 hover:bg-slate-100 h-full p-2"
+            className=" flex flex-col  items-center justify-center space-y-1 disabled:text-gray-400 hover:bg-slate-100 h-full p-2"
             disabled={!props?.linkUrl}
             href={props?.linkUrl}
             target="_blank"
           >
             <BiWorld />
-            <span className=" px-1 py-0.5 rounded text-[10px]">
+            <span className="  px-1  rounded text-[10px]">
               {props?.linkUrl ? "Visit" : "Private"}
             </span>
           </a>
         )}
         {props?.source && (
           <a
-            className="flex flex-col text-md items-center justify-center space-y-1 disabled:text-gray-400 hover:bg-slate-100 h-full p-2"
+            className="flex flex-col items-center justify-center space-y-1 disabled:text-gray-400 hover:bg-slate-100 h-full p-2"
             disabled={!props?.source}
             href={props?.source}
             target="_blank"
           >
             <RxGithubLogo />
-            <span className=" px-1 py-0.5 rounded text-[10px]">
+            <span className=" px-1  rounded text-[10px]">
               {props?.source ? "Source" : "Private"}
             </span>
           </a>
@@ -106,6 +111,19 @@ const Header = () => {
           />
         </div>
       </div>
+    </div>
+  );
+};
+
+const Welcome = () => {
+  return (
+    <div className="container mx-auto py-2 md:py-10 font-thin text-xl">
+      <span className="block font-medium text-2xl leading-relaxed my-4">
+        Welcome to my digital domain!
+      </span>{" "}
+      As a developer specializing in front end libraries and PDF wizardry , I
+      bring excitement and innovation to the web. Explore my portfolio and
+      witness the magic for yourself.
     </div>
   );
 };
