@@ -129,7 +129,7 @@ const Welcome = () => {
   return (
     <div className="container mx-auto pl-20  md:pl-0 sm:pl-0  px-2 py-2 max-w-xl md:py-10 font-thin text-sm md:text-xl  relative flex lg:flex-col">
       <img
-        src="/images/wezard.png"
+        src="images/wezard.png"
         alt="wizard"
         className="mx-auto h-32 md:h-64 md:-mb-4 lg:-mt-20 absolute -left-0 top-10 sm:relative"
       />
