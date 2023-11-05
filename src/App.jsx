@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App min-h-screen w-full h-full flex flex-col justify-center font-sans">
       <Header />
-      <div className="flex flex-grow ">
+      <div className="flex flex-grow w-full ">
         <Outlet />
       </div>
       <Footer />

@@ -1,11 +1,39 @@
 [
-    {
-        "name" : "Leaf Autos",
-        "displayUrl" : "leafautos.com",
-        "linkUrl" : "https://leafautos.com",
-        "folder" : "leafautos.com",
-        "source" : "https://github.com/jelizarovas/leafautos.com", 
-        "logo" : "/projects/leafautos.com/logo.png",
-        "background" : "#008e76"
-    }
+  {
+    "name": "Leaf Autos",
+    "displayUrl": "leafautos.com",
+    "linkUrl": "https://leafautos.com",
+    "folder": "leafautos.com",
+    "source": "https://github.com/jelizarovas/leafautos.com",
+    "logo": "/projects/leafautos.com/logo.png",
+    "background": "#008e76"
+},
+{
+    "name": "SFM Tools",
+    "displayUrl": "sfmtools.com",
+    "linkUrl": "https://sfmtools.com",
+    "folder": "seimossaknis.lt",
+    "logo": "/projects/sfmtools.com/favicon.ico",
+    "background": "#fff",
+    "disabled": true
+  },
+{
+    "name": "Suberb Hemp / Šeimos šaknis",
+    "displayUrl": "seimossaknis.lt",
+    "linkUrl": "https://seimossaknis.lt/en/",
+    "folder": "seimossaknis.lt",
+    "source": "",
+    "logo": "/projects/seimossaknis.lt/logo_t.png",
+    "background": "#fff",
+    "disabled": true
+  },
+  {
+    "name": "How Long Can I Still Chill",
+    "displayUrl": "gh/how-long-can-i-chill",
+    "linkUrl": "https://jelizarovas.github.io/how-long-can-i-chill/",
+    "folder": "how-long-can-i-chill",
+    "source": "https://github.com/jelizarovas/how-long-can-i-chill",
+    "background": "#d84848",
+    "disabled": true
+  }
 ]
